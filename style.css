@@ -1,0 +1,98 @@
+* {
+  font-family: "맑은 고딕", Gothic, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+.menu-item {
+  color: white;
+  list-style: none;
+}
+#page-wrapper {
+  background-color: #e6e6e6;
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+body {
+  background-color: white;
+  width: 960px;
+  margin: 0 auto;
+}
+#main-header {
+  font-size: 30px;
+  padding: 40px 50px;
+}
+.menu-item {
+  display: block;
+  height: 30px;
+  width: 80px;
+  padding: 10px 35px;
+  text-align: center;
+  line-height: 30px;
+}
+.menu-item:hover {
+  color: black;
+  text-decoration: underline;
+}
+#nav-box {
+  width: 150px;
+  height: 200px;
+  border-radius: 30%;
+  margin: 20px;
+  background-color: violet;
+  border: 2px solid black;
+  float: left;
+  overflow: hidden;
+}
+.pull-left {
+  height: 400px;
+  float: left;
+}
+.pull-right {
+  padding: 7px;
+  height: 400px;
+  float: right;
+}
+.project {
+  border: 2px solid black;
+  width: 500px;
+  height: 300px;
+  background-color: #b8b8b8;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-left: 300px;
+  height: 30px;
+  float: right;
+}
+.bucket {
+  border: 2px solid black;
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  background-color: #b8b8b8;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-left: 300px;
+  height: 30px;
+  float: right;
+}
+#content {
+  overflow: hidden;
+}
+footer {
+  margin-top: 10px;
+}
+.footer-image {
+  display: inline;
+  width: 40px;
+  height: 40px;
+}
+.footer {
+  display: inline;
+  margin-right: 20px;
+}
+p {
+  display: inline;
+}
