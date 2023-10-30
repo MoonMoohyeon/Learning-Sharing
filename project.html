@@ -11,16 +11,37 @@
           <ul class="menu">
             <li ><a class="menu-item" href="about.html">about</a></li>
             <li ><a class="menu-item" href="project.html" style="color:black">project</a></li>
-            <li ><a class="menu-item" href="interset.html">interest</a></li>
+            <li ><a class="menu-item" href="interest.html">interest</a></li>
             <li ><a class="menu-item" href="bucket list.html">bucket list</a></li>
           </ul>
         </nav>
       </div>
       <div id="content">
         <section id="main-section">
-          <div class="project">Lorem ipsum dolor sit amet</div>
-          <div class="project">Lorem ipsum dolor sit amet</div>
-          <div class="project">Lorem ipsum dolor sit amet</div>
+          <div class="project"><button onclick="openModal1()">러닝앤쉐어링 웹페이지 만들기</button>
+            <div id="modal1">
+              <div id="modal-content1">
+                <h2>러닝앤쉐어링 웹페이지</h2>
+                <p>모달창 내용</p>
+                <button class="closebtn" onclick="closeModal1()">닫기</button>
+              </div>
+            </div>
+          </div>
+          <div class="project"><button onclick="openModal2()">산학협력프로젝트 SeoulFesMap</button></div>
+          <div id="modal2">
+            <div id="modal-content2">
+              <h2>산학협력프로젝트 SeoulFesMap</h2>
+              <p>모달창 내용</p>
+              <button class="closebtn" onclick="closeModal2()">닫기</button>
+            </div>
+          </div>
+          <div class="project"><button onclick="openModal3()">팀 프로젝트 Omok</button></div>
+          <div id="modal3">
+            <div id="modal-content3">
+              <h2>팀 프로젝트 Omok</h2>
+              <p>모달창 내용</p>
+              <button class="closebtn" onclick="closeModal3()">닫기</button>
+            </div>
         </section>
       </div>
       <hr />
@@ -31,7 +52,7 @@
         </div>
         <div class="footer" id="email">
           <img class="footer-image" src="img/email.png" />
-          <a href="mailto:">fancy@konkuk.ac.kr</p>
+          <a href="mailto:fancy@konkuk.ac.kr">fancy@konkuk.ac.kr</p>
         </div>
 
         <div class="footer" id="github">
@@ -43,5 +64,6 @@
         <div class="footer" id="myname">2023.10.11 문무현 figma</div>
       </footer>
     </div>
+    <script src="js.js"></script>
   </body>
 </html>
