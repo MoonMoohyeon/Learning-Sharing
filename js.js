@@ -90,3 +90,13 @@ function grade() {
     state4 = true;
   }
 }
+
+function showMenu() {
+  var nav = document.getElementById("nav-box");
+  nav.style.visibility = "visible";
+}
+
+function hideMenu() {
+  var nav = document.getElementById("nav-box");
+  nav.style.visibility = "hidden";
+}

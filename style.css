@@ -1,5 +1,5 @@
 * {
-  font-family: "맑은 고딕", Gothic, sans-serif;
+  font-family: "Noto Sans", Gothic, sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -11,12 +11,15 @@ a {
   list-style: none;
 }
 #page-wrapper {
-  background-color: #e6e6e6;
+  background-color: whitesmoke;
   padding: 10px 20px;
   margin-top: 40px;
+  border-radius: 50px;
 }
 body {
   background-color: white;
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
   width: 960px;
   margin: 0 auto;
 }
@@ -43,17 +46,24 @@ body {
 }
 #nav-box {
   width: 150px;
-  height: 200px;
-  border-radius: 30%;
+  height: 300px;
   margin: 20px;
-  background-color: violet;
+  background-color: cadetblue;
   border: 2px solid black;
   float: left;
   overflow: hidden;
+  visibility: hidden;
+}
+#menu {
+  visibility: visible;
+  color: black;
 }
 .pull-left {
   height: 200px;
   float: left;
+}
+img {
+  border: 3px solid black;
 }
 .pull-right {
   padding: 7px;
@@ -67,8 +77,8 @@ body {
   border: 2px solid black;
   width: 500px;
   height: 300px;
-  background-color: #b8b8b8;
-  margin-bottom: 20px;
+  background-color: skyblue;
+  margin-bottom: 50px;
   margin-right: 50px;
   margin-left: 300px;
   height: 50px;
@@ -79,7 +89,7 @@ body {
   width: 500px;
   height: 300px;
   padding: 10px;
-  background-color: #b8b8b8;
+  background-color: skyblue;
   margin-bottom: 20px;
   margin-right: 50px;
   margin-left: 300px;
@@ -96,6 +106,7 @@ footer {
   display: inline;
   width: 40px;
   height: 40px;
+  border: none;
 }
 .footer {
   display: inline;

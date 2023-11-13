@@ -6,9 +6,10 @@
   <body>
     <div id="page-wrapper">
       <header id="main-header">건국대학교 컴퓨터공학부 문무현</header>
-      <div id="nav-box">
+      <div id="nav-box" onmouseleave="hideMenu()">
         <nav>
           <ul class="menu">
+            <li id="menu" class="menu-item" onmouseover="showMenu();">MENU</li>
             <li ><a class="menu-item" href="about.html">about</a></li>
             <li ><a class="menu-item" href="project.html">project</a></li>
             <li ><a class="menu-item" href="interest.html">interest</a></li>
@@ -30,7 +31,7 @@
       <footer>
         <div class="footer" id="phone">
           <img class="footer-image" src="img/phone.png" />
-          <p>010-2355-8589</p>
+          <a href="tel:010-2355-8589">010-2355-8589</a>
         </div>
         <div class="footer" id="email">
           <img class="footer-image" src="img/email.png" />
